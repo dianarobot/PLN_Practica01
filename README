@@ -2,26 +2,31 @@
 Este es el archivo README de la práctica 1.
 En este repositorio se encuentran los ejercicios:
 *sumarNumeros.py (Ejercicio 3.1)
-*
-*
+Suma los números del 0 a N mediante un ciclo for utilizando la función range.
+
+*lenguajeF.py (Ejercicio 3.2)
+Se traduce una cadena de texto al lenguaje de la F, sólo toma en cuenta las reglas del español y se consideran 3 casos:
+1) Las vocales sin acentos en minúsculas y mayúsculas.
+2) Las vocales especiales que son las que tienen acentos o la "ü".
+3) La "y" en mayúscula y minúscula cuando suena como vocal, es decir cuando no va seguida de una vocal.
+
+* (Ejercicio 3.3) PENDIENTE
 
 ### Prerequisitos
 Aquí van los paquetes que se necesitan para que esta cosa funcione.
-‘‘‘
-Dar ejemplos:
-* NLTK
-‘‘‘
+
 ### Instalar
 Aquí van las instrucciones de instalación del proyecto, de modo que
 alguien más lo pueda ejecutar sin ayuda del desarrollador.
 
-‘‘‘
-import nltk
-nltk.download()
-‘‘‘
-Y seguir:
-‘‘‘
-otra instrucci´on
-‘‘‘
+### Ejecutar Ejercicios en consola
+*Ejercicio 3.1 (Se requiere que ingrese un número entero)
+python sumarNumeros.py 
+
+*Ejercicio 3.2 (Se requiere que ingrese un texto)
+python lenguajeF.py 
+
+*Ejercicio 3.3 PENDIENTE
+
 ## Autor
-* **Diana Rocha Botello** - *Práctica 1* - [Sitio web](https://google.com)
+* **Diana Rocha Botello** - *Práctica 1* - [Repositorio](https://github.com/dianarobot)
