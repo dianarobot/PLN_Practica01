@@ -10,7 +10,11 @@ Se traduce una cadena de texto al lenguaje de la F, sólo toma en cuenta las regl
 2) Las vocales especiales que son las que tienen acentos o la "ü".
 3) La "y" en mayúscula y minúscula cuando suena como vocal, es decir cuando no va seguida de una vocal.
 
-* (Ejercicio 3.3) PENDIENTE
+* Juego de ahorcado (Ejercicio 3.3)
+Está compuesto por 3 archivos
+1) Clase ahorcado que cuenta con los métodos y variables necesarias para jugar, mostrar el estatus y validar si ha perdido o ganado el juego
+2) El archivo principal en donde se implementa el ciclo de juego y hace uso de la clase ahorcado.
+3)El archivo .txt que contiene la lista de palabras que pueden ser elegidas para adivinar.
 
 ### Prerequisitos
 Aquí van los paquetes que se necesitan para que esta cosa funcione.
@@ -26,7 +30,8 @@ python sumarNumeros.py
 *Ejercicio 3.2 (Se requiere que ingrese un texto)
 python lenguajeF.py 
 
-*Ejercicio 3.3 PENDIENTE
+*Ejercicio 3.3 (No se validaron las vocales con acentos)
+python playAhorcado.py
 
 ## Autor
 * **Diana Rocha Botello** - *Práctica 1* - [Repositorio](https://github.com/dianarobot)
